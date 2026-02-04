@@ -157,7 +157,6 @@ in
 
         environment = {
           HOME = stateDir;
-          TAILSCALE_USE_WIP_CODE = "1"; # Needed while tsidp is in development (< v1.0.0).
         };
 
         serviceConfig = {
